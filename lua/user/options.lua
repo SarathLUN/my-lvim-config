@@ -15,7 +15,7 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 lvim.builtin.breadcrumbs.active = true
 lvim.builtin.treesitter.highlight.enabled = true
 lvim.builtin.dap.active = true
-lvim.format_on_save.enabled = false
+lvim.format_on_save.enabled = true
 lvim.builtin.lualine.sections.lualine_a = { "mode" }
 -- lvim.builtin.lualine.options.theme = "gruvbox-material"
 lvim.transparent_window = false
@@ -23,7 +23,7 @@ lvim.builtin.terminal.active = true
 lvim.builtin.terminal.open_mapping = "<C-t>"
 lvim.builtin.alpha.active = true
 
-lvim.builtin.breadcrumbs.active = true
+lvim.builtin.breadcrumbs.active = false
 
 -- close nvimtree when opening a file
 lvim.builtin.nvimtree.setup.actions.open_file.quit_on_open = true
